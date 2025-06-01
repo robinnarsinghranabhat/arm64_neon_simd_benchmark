@@ -2,11 +2,12 @@
 
 A comparison of naive C implementation vs ARM64 NEON SIMD optimized matrix multiplication.
 
-# On macOS:
+## first check if you have ARM64:
+
+### On macOS:
 uname -m  # Should output "arm64"
 
-## first check if you have ARM64:
-# On Linux:
+### On Linux:
 lscpu | grep Architecture  # Should show "aarch64" or "arm64"
 Currently comparing between using native C for matrix multiplication vs arm64 NEON SIMD instructions (tested on macbook m3 pro).
 
