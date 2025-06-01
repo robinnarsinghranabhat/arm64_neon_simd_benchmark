@@ -22,3 +22,6 @@ Results for multiplying `128*128` matrix :
 matrix_multiply_c:   3.535382 seconds for 1000 runs
 matrix_multiply_neon: 1.764256 seconds for 1000 runs
 ```
+
+
+Code is heavily referenced from : https://developer.arm.com/documentation/102467/0201/Example---matrix-multiplication?lang=en
