@@ -2,8 +2,9 @@
 
 Currently comparing between using native C for matrix multiplication vs arm64 NEON SIMD instructions (tested on macbook m3 pro).
 
-## How to Compile 
+## Compile and Run 
 gcc -g -o3 mat_mul.c mat_mul_bench.c -o exe_matrix_o3
+./exe_matrix_o3
 
 Results for multiplying `128*128` matrix : 
 ```
